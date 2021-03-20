@@ -1,0 +1,2 @@
+# fortune
+Distributed Fortune Authenication
