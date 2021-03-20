@@ -35,7 +35,7 @@ type FortuneMessage struct {
 }
 
 // Hash function
-func newSHA256(data []byte) []byte {
+func newSHA256(data []byte, nonce uint64) []byte {
 	hash := sha256.Sum256(data)
 	return hash[:]
 }
